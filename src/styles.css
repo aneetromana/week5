@@ -1,0 +1,77 @@
+body {
+  background-color: #e0f7fa; 
+  color: #252927; 
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.task_list {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #03a9f4;
+  color: #fff; 
+  padding: 2rem 5rem;
+  min-height: 20rem;
+}
+
+.task_list h2 {
+  text-align: center;
+}
+
+.task {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task input {
+  margin: 0 1rem;
+}
+
+.task button {
+  padding: 0.5rem 1rem;
+  background-color: #fff; 
+  border: none;
+}
+
+.task button:hover {
+  color: #fff; 
+  background-color: #1976d2; 
+}
+
+.task_form {
+  margin-bottom: 2rem;
+}
+
+.task_form input {
+  margin: 1rem;
+  width: 20rem;
+  background-color: transparent;
+  padding: 0.5rem 1rem 0.5rem 0.3rem;
+  border: none;
+  border-bottom: 1px solid #03a9f4; 
+  outline: none;
+  color: #252927; 
+}
+
+.task_form button {
+  padding: 0.5rem 2rem;
+  color: #fff; 
+  background-color: #03a9f4; 
+  border: none;
+  transition: 0.7s opacity ease-in-out;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.task_form button:hover {
+  opacity: 0.8; 
+}
